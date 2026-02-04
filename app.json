@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "chef-ia",
-    "slug": "chef-ia",
+    "slug": "chef-ia-cldev",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -20,10 +20,17 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.cldev10.chefiacldev"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36941d2b-edf6-4528-9737-9c6b4d351648"
+      }
+    },
+    "owner": "cldev10"
   }
 }
